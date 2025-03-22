@@ -1,9 +1,61 @@
- 
-    h1{
-     color: blueviolet;
-    }
+body {
+background-color: rgb(192, 230, 235);
+}
+ /* background-image: url(image.png);
+  background-size: cover;*/
+.caixa {
+  background-image: url(image.png);
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
 
-    .textinho{
-     color: rgb(255, 0, 0);
-     font-size: 20px;
-    }
+
+
+#titulo {
+  color: blueviolet;
+}
+
+.textinho {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+
+/*pode ter classe e id no mesmo lugar*/
+.turma {
+  color: green;
+}
+
+#fulano {
+  color: rgb(255, 0, 200);
+}
+
+.caixa {
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.texto {
+font-size: 18px;
+font-family: fredoka one;
+text-align: center;
+line-height: 1.5;
+}
+
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+background-color: rgb(85, 171, 199);
+}
